@@ -79,7 +79,7 @@ on a sphere. Comparing rhumb lines to great circles, we see:
  * The **difference** or **change** in latitude (**d lat** or **ch lat**) is the
    difference between the paralells, either N or S.
     * *eg. if you travelled from 30 deg S, to 40 deg N, then you would have a ch lat
-    (or d lat) of 70 deg N. In the opposite direction, it would be 70 deg S.
+    (or d lat) of 70 deg N. In the opposite direction, it would be 70 deg S.*
 
 **Latitude is expressed in *degrees, minutes, and seconds.***
 
