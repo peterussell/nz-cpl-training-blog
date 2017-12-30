@@ -16,4 +16,4 @@ paginate: 4
 
 author: Pete Russell
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
