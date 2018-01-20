@@ -187,4 +187,7 @@ Answer: 65 US gal of AVGAS is roughly 390 lb, or 177 kg.
 
 Answer: you have uplifted 60.5 litres of fuel, weighing 96 lb, or 43.5 kg.
 
+**Converting &deg;C to &deg;F**
 
+There is a conversion scale near the bottom of the calculation side. Just read the corresponding value
+off the conversion scale.
