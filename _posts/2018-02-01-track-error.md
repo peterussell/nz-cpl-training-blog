@@ -58,7 +58,7 @@ planned track*** (not the TMG).
 *Example: you've travelled 90 nm and are 5 1/2 nm left of required track. What is the track error?*
 
 60 / 90 = TE / 4.5
-=> TE = (4.5 * 60) / 90
+=> TE = (4.5 x 60) / 90
 => TE = 270 / 90 = 3&deg; left
 
 *Example: you're 10 nm right of track after 150 nm travelled. What's the track error?*
@@ -73,10 +73,69 @@ It can be handy to rearrange the formula for in flight, where you want to know t
 in degrees, which can be hard to measure with a protractor, where it's easier to measure the
 two distances:
 
-TE = Distance off track * (60 / distance gone)
+ > **TE = Distance off track x (60 / distance gone)**
 
 *Example: What is the track error if you've travelled 86 nm and 3 nm right of track?*
 
-TE = 3nm * (60 / 86)
-=> TE = 3 * (0.7)
+TE = 3nm x (60 / 86)
+=> TE = 3 x (0.7)
 => TE = 2.1&deg; right of track.
+
+**Closing Angle**
+
+You can use the 1-in-60 rule to calculate closing angle in exactly the same way as above, except
+using the *distance to go* instead of distance travelled.
+
+**Closing Angle = Distance off x (60 / distance to go)**
+
+Once you've got the TE and CA, you can calculate the **Total Correction** required.
+
+*Example: you've travelled 45 nm and are 3 nm left of track. You want to regain track by a checkpoint
+20 nm away.
+
+ 1. What is the track error?
+ 2. What is the closing angle?
+ 3. What is the total correction?*
+
+1.
+
+TE = distance off x (60 / distance travelled)
+=> TE = 3 x (60 / 45)
+=> TE = 3 x 1 1/3
+=> TE = 4&deg; left of track.
+
+2.
+
+CA = distance off x (60 / distance to go)
+CA = 3 x (60 / 20)
+CA = 3 x 3 = 9&deg;
+
+3.
+
+TC = TE + CA
+=> TC = 4 + 9
+=> TC = 13&deg; right.
+
+---
+
+The preceding explanations show that it's possible to use the 1-in-60 rule to determine **a correct
+heading to regain track** provided you have:
+
+ * A definite fix;
+ * A distance off track;
+ * A distance flown since the fix;
+ * A distance to the point where you want to regain track;
+ * A track error and closing angle that are **less than 15&deg; each**
+
+**Tips**
+
+ * Can be useful to memorise a distance on the chart (eg. 4 nm stretch of road) to use when estimating
+   distances.
+ * Workings can be simplified if you use a distance travelled equal to the distance you want to
+   rejoin, then you just have to do the calculation once and the answer will work for both TE and CA.
+    * Similarly, if the required track is relatively short, it can be helpful to determine TE at the
+      halfway point between the fix and next checkpoint.
+
+**The 1-in-60 rule is important, practice it until you're familiar with it and can use it in flight.**
+
+*NB. There are a couple of longer examples in the text which I'll omit here.*
